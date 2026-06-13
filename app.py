@@ -3,6 +3,9 @@ from PIL import Image
 import io
 import os
 
+
+st.markdown("""<meta name="google-site-verification" content="e6RuPiER3zruuI269nEvFIFnWthjfiOicx682BlDZxo" />""", unsafe_allow_html=True)
+
 # --- Page Configuration ---
 st.set_page_config(page_title="Universal File Converter", page_icon="🔄", layout="centered")
 
