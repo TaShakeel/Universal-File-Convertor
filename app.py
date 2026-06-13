@@ -1,6 +1,13 @@
 import streamlit as st
 from PIL import Image
 import io
+import streamlit.components.v1 as components
+
+# --- AdSense Script (HEAD injection workaround) ---
+components.html("""
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6412743206244068"
+     crossorigin="anonymous"></script>
+""", height=0)
 
 # --- Page Configuration with SEO ---
 st.set_page_config(
